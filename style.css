@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    font-family: Roboto;
+    color: white;
+    font-size: 14px;
+    background-color: #383838;
+}
+
+.header {
+    background-color: #1b1b1b;
+    padding: 30xp;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: calc(24px + 16 / (1280 - 320) * (100vw - 320px));
+    /* font-size: calc(40px + 16 / (1280 - 320) * (100vw - 1280px)); */
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
